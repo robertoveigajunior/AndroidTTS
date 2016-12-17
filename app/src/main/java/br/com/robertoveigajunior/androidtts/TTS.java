@@ -51,7 +51,6 @@ public class TTS extends AppCompatActivity implements View.OnClickListener, Text
     public void onClick(View view) {
         BT_CLICADO = view.getId();
         if (BT_CLICADO == R.id.btFalar) {
-            
             String texto = etTexto.getText().toString();
             falar(texto);
         } else if (BT_CLICADO == R.id.btEscutar) {
